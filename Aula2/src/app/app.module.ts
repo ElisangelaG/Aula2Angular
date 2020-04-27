@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { DatasComponent } from './datas/datas.component';
+import { EnderecoComponent } from './endereco/endereco.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DatasComponent,
+    EnderecoComponent
   ],
   imports: [
     BrowserModule,
